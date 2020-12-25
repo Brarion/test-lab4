@@ -1,15 +1,27 @@
 {
-  "name": "my-awesome-module",
-  "version": "1.2.3",
-  "devDependencies": {
-    "tap": "^13.1.11"
-  },
+  "name": "laba04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "tap"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razergom/TestingLab04.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razergom/TestingLab04/issues"
+  },
+  "homepage": "https://github.com/razergom/TestingLab04#readme",
+  "devDependencies": {
+    "tap": "^14.11.0"
+  },
   "dependencies": {
-    "axios": "^0.21.0",
-    "express": "^4.17.1",
-    "lodash": "^4.17.20"
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "mocky": "^0.1.11"
   }
 }
